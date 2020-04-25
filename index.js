@@ -3,12 +3,17 @@ const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
 
+
+const createATag =(url, str) =>{
+  return `<a href =${url}>${str}</a>`
+};
+
 inquirer
   .prompt([
     {
         type: "input",
         message: "What is your Github username?",
-        name: "name"
+        name: "username"
       }, 
       {
         type: "input",
@@ -37,7 +42,7 @@ inquirer
     choices: [
       "MIT",
       "APACHE2.0",
-      "GPL3.0",
+      "GPL",
       "BSD3",
       "none"
   ]
@@ -62,25 +67,52 @@ inquirer
     message: "What does the user need to know about contributing to the repo?",
     name: "repo"
   },
-])
+]).then (function(data){
 
 
 
+
+/*.then(response =>{
+
+  const gitHubUrl = `https://github.com/${response.username}`;
+  let readMe = ``;
+
+  // add header
+  const  header = createTag("h1", `${response.username}+"\n"`);
+  readMe += header;
+
+  //add email address
+  const email = createTag("h3", `${response.email}`)
+  readMe += email;
+
+// add badge source
+ /* const mit =` https://img.shields.io/apm/l/nuk`
+  const apache2 = `https://img.shields.io/hexpm/l/nuk`
+  const gpl =`https://img.shields.io/eclipse-marketplace/l/license_GPL`
+  const bsd3 =`https://img.shields.io/pypi/l/bsd`
   
-  .then(function({ username }) {
-    const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
-    axios
-  .get(queryUrl)
-  .then(resp=>  {
-console.log (resp)
-  })
-  })
+  
+  const mitBadge = createATag(mit,"MIT License");
+  const apache2Badge =createATag(apache2, "APACHE2 License");
+  const gplBadge = createATag(gpl,"GPL License");
+  const bsd3Badge = createATag(bsd3,"BSD3 License");
 
+  let badge = data.badge;
+   if( data = "MIT" => {
+     return mit 
+   };
 
-  fs.writeFile("readme.md", readMe, err => {
+  if (badge =MIT.badge => mitBadge){
+      console.log("Party on ,dude!")
+  }
+})
+*/
+
+ fs.writeFile("readme.md", JSON.stringify(data,null,'\t'), err => {
     if(err){
       return console.log(err)
     }
 
     console.log("Success!")
   })
+})
