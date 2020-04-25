@@ -75,3 +75,12 @@ inquirer
 console.log (resp)
   })
   })
+
+
+  fs.writeFile("readme.md", readMe, err => {
+    if(err){
+      return console.log(err)
+    }
+
+    console.log("Success!")
+  })
