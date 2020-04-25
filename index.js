@@ -33,7 +33,14 @@ inquirer
   {
     type: "list", 
     message: "What kind of license should your project have?",
-    name: ""
+    name: "badge",
+    choices: [
+      "MIT",
+      "APACHE2.0",
+      "GPL3.0",
+      "BSD3",
+      "none"
+  ]
   },
   {
     type: "input", 
