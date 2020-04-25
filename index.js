@@ -67,8 +67,15 @@ inquirer
     message: "What does the user need to know about contributing to the repo?",
     name: "repo"
   },
-]).then (function(data){
+]).then (function generateMarkdown(data){
+let md =`
 
+# ${data.username}
+My email address: ${data.email}
+My GITHUB URL : ${data.url}
+
+
+`
 
 
 
@@ -108,7 +115,7 @@ inquirer
 })
 */
 
- fs.writeFile("readme.md", JSON.stringify(data,null,'\t'), err => {
+ fs.writeFile("readme.md", md, err => {
     if(err){
       return console.log(err)
     }

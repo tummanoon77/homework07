@@ -1,11 +1,7 @@
-{
-	"username": "tummanoon77",
-	"email": "nukgroup@yahoo.com",
-	"url": "https://github.com/tummanoon77",
-	"projectName": "portfolio_gen",
-	"write": "this is verygood project",
-	"badge": "MIT",
-	"inStall": "npm",
-	"test": "node",
-	"repo": "nada"
-}
+
+
+# tummanoon77
+My email address: nukgroup@yahoo.com
+My GITHUB URL : https://github.com/tummanoon77
+
+
