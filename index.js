@@ -58,9 +58,19 @@ inquirer
     name: "test"
   },
   {
+    type: "checkbox", 
+    message: "What is List your collaborators?",
+    name: "collab",
+    choices: [
+      "Gary",
+      "Dan",
+      "Erik"
+  ]
+  },
+  {
     type: "input", 
     message: "What does the user need to know about using the repo?",
-    name: "repo"
+    name: "use"
   },
   {
     type: "input", 
@@ -73,7 +83,30 @@ let md =`
 # ${data.username}
 My email address: ${data.email}
 My GITHUB URL : ${data.url}
+https://img.shields.io/github/followers/tummanoon77?style=social
 
+## Description
+${data.write}
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+## Installation
+${data.inStall}
+
+## Usage 
+${data.use}
+## Credits
+${data.collab}
+## License
+${data.badge}
+## Contributing
+${data.repo}
+## Tests
+${data.test}
 
 `
 
