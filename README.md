@@ -3,10 +3,10 @@
 # Tummanoon77
 My email address: nukgroup@yahoo.com
 My GITHUB URL : https://github.com/tummanoon77
-https://img.shields.io/github/followers/tummanoon77?style=social
+![follow](https://img.shields.io/github/followers/tummanoon77?style=social)
 
 ## Description
-this project is very good.
+this project is the best
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,13 +18,13 @@ this project is very good.
 npm
 
 ## Usage 
-this repo is the best
+this repo is one of the best
 ## Credits
 Gary,Dan,Erik
 ## License
 MIT
 ## Contributing
-this repo is a good repo .
+this repo is fantastic
 ## Tests
 node
 
