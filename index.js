@@ -4,9 +4,9 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 
 
-const createATag =(url, img) =>{
-  return `<a href =${url}>${img}</a>`
-};
+//const createATag =(url, img) =>{
+//  return `<a href =${url}>${img}</a>`
+//};
 
 inquirer
   .prompt([
