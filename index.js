@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
@@ -86,7 +86,7 @@ My GITHUB URL : ${data.url}
 
 ![](https://img.shields.io/github/followers/tummanoon77?style=social)
 
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 ## Description
 ${data.write}
 
