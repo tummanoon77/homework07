@@ -4,8 +4,8 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 
 
-const createATag =(url, str) =>{
-  return `<a href =${url}>${str}</a>`
+const createATag =(url, img) =>{
+  return `<a href =${url}>${img}</a>`
 };
 
 inquirer
@@ -81,9 +81,10 @@ inquirer
 let md =`
 
 # ${data.username}
-My email address: ${data.email}
+My email address: ${data.email}("\n")
 My GITHUB URL : ${data.url}
-![follow](https://img.shields.io/github/followers/tummanoon77?style=social)
+
+![](https://img.shields.io/github/followers/tummanoon77?style=social)
 
 ## Description
 ${data.write}
@@ -156,3 +157,4 @@ ${data.test}
     console.log("Success!")
   })
 })
+module.exports = generateMarkdown;
