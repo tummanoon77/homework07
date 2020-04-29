@@ -157,4 +157,3 @@ ${data.test}
     console.log("Success!")
   })
 })
-module.exports = generateMarkdown;
