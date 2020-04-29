@@ -1,16 +1,13 @@
 
 
-# Tummanoon77
-My email address: nukgroup@yahoo.com
+# tummanoon77
+My email address:  nukgroup@yahoo.com
 My GITHUB URL : https://github.com/tummanoon77
-<<<<<<< HEAD
-![follow](https://img.shields.io/github/followers/tummanoon77?style=social)
-=======
+
 ![](https://img.shields.io/github/followers/tummanoon77?style=social)
->>>>>>> 6778d9830625ebceae200942e87cb1dbf3af06fe
 
 ## Description
-this project is the best
+this project about team
 
 ## Table of Contents
 * [Installation](#installation)
@@ -22,13 +19,13 @@ this project is the best
 npm
 
 ## Usage 
-this repo is one of the best
+this repo is cool
 ## Credits
 Gary,Dan,Erik
 ## License
 MIT
 ## Contributing
-this repo is fantastic
+superb
 ## Tests
 node
 
