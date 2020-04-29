@@ -81,7 +81,7 @@ inquirer
 let md =`
 
 # ${data.username}
-My email address: ${data.email}("\n")
+My email address: ${data.email}
 My GITHUB URL : ${data.url}
 
 ![](https://img.shields.io/github/followers/tummanoon77?style=social)
