@@ -1,4 +1,4 @@
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
@@ -86,6 +86,7 @@ My GITHUB URL : ${data.url}
 
 ![](https://img.shields.io/github/followers/tummanoon77?style=social)
 
+
 ## Description
 ${data.write}
 
@@ -108,6 +109,8 @@ ${data.badge}
 ${data.repo}
 ## Tests
 ${data.test}
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="tummanoon-sripechpong-b47266a"><a class="LI-simple-link" href='https://www.linkedin.com/in/tummanoon-sripechpong-b47266a?trk=profile-badge'>tummanoon sripechpong</a></div>
 
 `
 

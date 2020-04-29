@@ -1,13 +1,14 @@
 
 
-# tummanoon77
+# Tummanoon77
 My email address:  nukgroup@yahoo.com
 My GITHUB URL : https://github.com/tummanoon77
 
 ![](https://img.shields.io/github/followers/tummanoon77?style=social)
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 ## Description
-this project about team
+this repo is so ggod
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,7 +20,7 @@ this project about team
 npm
 
 ## Usage 
-this repo is cool
+cool
 ## Credits
 Gary,Dan,Erik
 ## License
